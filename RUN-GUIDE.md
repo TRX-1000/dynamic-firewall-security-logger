@@ -85,4 +85,5 @@ The original setup-ubuntu.sh targets Ubuntu 22.04 and is deliberately not used h
 
 The working VM was prepared with Ubuntu packages `mininet`, `openvswitch-switch`, `python3-venv`, `python3-pip`, `python3-os-ken` and `unzip`. The OS-Ken package supplies its dependent Python libraries, including Eventlet. Open vSwitch must be running (`sudo systemctl enable --now openvswitch-switch`). A basic network check is `sudo mn --switch ovsbr --test pingall`.
 
-These are recorded prerequisites, not an instruction to reinstall the working VM. Match the versions stated in REPORT.md and verify any different environment. Do not replace the working system-package launcher with the old .venv/osken-manager command. See PRE-SUBMISSION-REVIEW.md for review scope and remaining limitations.
+These are recorded prerequisites, not an instruction to reinstall the working VM. Match the versions stated in REPORT.md and verify any different environment. Do not replace the working system-package launcher with the old .venv/osken-manager command.
+

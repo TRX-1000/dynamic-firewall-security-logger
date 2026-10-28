@@ -1,7 +1,7 @@
 # Dynamic Firewall with Security Event Logger
 ## Final implementation and experimental results
 
-Computer Networks project | Submission date: 26 October 2026
+Computer Networks project
 
 Team members / student IDs: 
 Sharvil Deshpande / PES1UG25CS477, 
@@ -91,4 +91,3 @@ The implementation demonstrated dynamic allow/deny rules, threshold-based blocki
 
 Use results/20261026-102714-summary.md for the original summary; each benchmark directory contains benchmark.jsonl, security.jsonl, service logs and logging-validation.json. The demo directory adds demo.json and recovery.json. Matching *-controller.jsonl and *-controller.log files provide local event and warning evidence. VERIFICATION.json records the independent audit. RUN-GUIDE.md explains starting the existing VM project and reproducing the demo/suite.
 
-Add the team details and repository link above before submission. If the course separately requires a flow-table screenshot, VM resource inventory or repository publication, those items are not demonstrated by this archive. The supplied rubric checklist references such requirements, but the original rubric PDF was not independently available for this review.
