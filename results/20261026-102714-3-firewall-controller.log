@@ -1,0 +1,20 @@
+/home/sharvil/Downloads/CN-PROJECT-UBUNTU-MININET/controller_launcher.py:1: DeprecationWarning: 
+Eventlet is deprecated. It is currently being maintained in bugfix mode, and
+we strongly recommend against using it for new projects.
+
+If you are already using Eventlet, we recommend migrating to a different
+framework.  For more detail see
+https://eventlet.readthedocs.io/en/latest/asyncio/migration.html
+
+  import eventlet
+1 RLock(s) were not greened, to fix this error make sure you run eventlet.monkey_patch() before importing any other modules.
+Controller starting; threading mode: eventlet
+INFO:os_ken.base.app_manager:loading app controller
+INFO:os_ken.base.app_manager:loading app os_ken.controller.ofp_handler
+INFO:os_ken.base.app_manager:instantiating app controller of Firewall
+INFO:os_ken.base.app_manager:instantiating app os_ken.controller.ofp_handler of OFPHandler
+{"kind": "LOGGER_UNAVAILABLE", "error": "timed out", "original": {"event_id": "3f143b4387964526813addbca5e5ed3a", "time": "2026-10-26T04:59:08.916487+00:00", "monotonic_ns": 5131276887672, "component": "controller", "kind": "ALLOW", "mode": "firewall", "src": "10.0.0.1", "dst": "10.0.0.3", "sport": 41398, "dport": 5000, "count": 0}}
+{"kind": "LOGGER_UNAVAILABLE", "error": "timed out", "original": {"event_id": "e2ee98c0db4f4245bf2b84ea05bfda79", "time": "2026-10-26T04:59:10.709211+00:00", "monotonic_ns": 5133069618569, "component": "controller", "kind": "ALLOW", "mode": "firewall", "src": "10.0.0.1", "dst": "10.0.0.3", "sport": 41440, "dport": 5000, "count": 0}}
+{"kind": "LOGGER_UNAVAILABLE", "error": "timed out", "original": {"event_id": "08462dddda7344c985a910e3ca8264f2", "time": "2026-10-26T04:59:11.831279+00:00", "monotonic_ns": 5134191676630, "component": "controller", "kind": "ALLOW", "mode": "firewall", "src": "10.0.0.3", "dst": "10.0.0.4", "sport": 45810, "dport": 7000, "count": 0}}
+{"kind": "LOGGER_UNAVAILABLE", "error": "timed out", "original": {"event_id": "c9022c594b2440ffbe1efce91d91b18b", "time": "2026-10-26T04:59:11.831912+00:00", "monotonic_ns": 5134192306020, "component": "controller", "kind": "ALLOW", "mode": "firewall", "src": "10.0.0.3", "dst": "10.0.0.4", "sport": 45810, "dport": 7000, "count": 0}}
+{"kind": "LOGGER_UNAVAILABLE", "error": "timed out", "original": {"event_id": "6564c6b91e4a4980ab56fc40b8d8302a", "time": "2026-10-26T04:59:13.698800+00:00", "monotonic_ns": 5136059200016, "component": "controller", "kind": "ALLOW", "mode": "firewall", "src": "10.0.0.1", "dst": "10.0.0.3", "sport": 48236, "dport": 5000, "count": 0}}

@@ -1,0 +1,7 @@
+{
+  "block_decision_ns": 5027243642751,
+  "last_failed_probe_end_ns": 5037261600199,
+  "first_success_end_ns": 5037673429077,
+  "observed_recovery_ms": 10429.786326,
+  "probe_interval_note": "250 ms sleep + up to 250 ms connection timeout; observation includes scheduling/echo"
+}

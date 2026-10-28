@@ -1,0 +1,377 @@
+[
+  {
+    "tag": "20261026-102714-1-baseline",
+    "local": 248,
+    "central_controller": 248,
+    "missing": [],
+    "warnings": [
+      {
+        "kind": "LOGGER_UNAVAILABLE",
+        "error": "timed out",
+        "original": {
+          "event_id": "a926201172644af7b94741a8013691b9",
+          "time": "2026-10-26T04:57:50.396536+00:00",
+          "monotonic_ns": 5052756932730,
+          "component": "controller",
+          "kind": "ALLOW",
+          "mode": "baseline",
+          "src": "10.0.0.3",
+          "dst": "10.0.0.4",
+          "sport": 49852,
+          "dport": 7000,
+          "count": 0
+        }
+      }
+    ],
+    "rlock": true,
+    "traceback": false,
+    "openflow_errors": 0,
+    "validation": {
+      "controller_events": 248,
+      "missing_event_ids": [],
+      "pending_disconnects": {},
+      "central_records": 312,
+      "quiet_seconds": 1,
+      "status": "passed"
+    },
+    "service_warnings": [
+      [
+        "server",
+        "TCP echo server listening on ('0.0.0.0', 5000)\n{\"kind\": \"LOGGER_UNAVAILABLE\", \"error\": \"timed out\", \"original\": {\"event_id\": \"764832363b4743f2abf84bf1d42d91be\", \"time\": \"2026-10-26T04:57:50.638106+00:00\", \"monotonic_ns\": 5052998503400, \"component\": \"server\", \"kind\": \"CONNECT\", \"peer\": \"10.0.0.1:60174\"}}\n"
+      ]
+    ],
+    "samples": 30,
+    "medians": {
+      "connect_ms": 6.486565000000001,
+      "first_echo_ms": 33.78729099995326,
+      "steady_median_ms": 0.036572499993781094,
+      "application_mbps": 79.83476873114691
+    }
+  },
+  {
+    "tag": "20261026-102714-1-firewall",
+    "local": 244,
+    "central_controller": 244,
+    "missing": [],
+    "warnings": [],
+    "rlock": true,
+    "traceback": false,
+    "openflow_errors": 0,
+    "validation": {
+      "controller_events": 244,
+      "missing_event_ids": [],
+      "pending_disconnects": {},
+      "central_records": 306,
+      "quiet_seconds": 1,
+      "status": "passed"
+    },
+    "service_warnings": [],
+    "samples": 30,
+    "medians": {
+      "connect_ms": 6.2809555,
+      "first_echo_ms": 29.318006500034244,
+      "steady_median_ms": 0.029651500426552957,
+      "application_mbps": 115.24546600865924
+    }
+  },
+  {
+    "tag": "20261026-102714-2-baseline",
+    "local": 238,
+    "central_controller": 238,
+    "missing": [],
+    "warnings": [
+      {
+        "kind": "LOGGER_UNAVAILABLE",
+        "error": "timed out",
+        "original": {
+          "event_id": "962408ca2b024abe9ca1212313868023",
+          "time": "2026-10-26T04:58:40.809521+00:00",
+          "monotonic_ns": 5103169913251,
+          "component": "controller",
+          "kind": "ALLOW",
+          "mode": "baseline",
+          "src": "10.0.0.3",
+          "dst": "10.0.0.4",
+          "sport": 50182,
+          "dport": 7000,
+          "count": 0
+        }
+      }
+    ],
+    "rlock": true,
+    "traceback": false,
+    "openflow_errors": 0,
+    "validation": {
+      "controller_events": 238,
+      "missing_event_ids": [],
+      "pending_disconnects": {},
+      "central_records": 302,
+      "quiet_seconds": 1,
+      "status": "passed"
+    },
+    "service_warnings": [
+      [
+        "server",
+        "TCP echo server listening on ('0.0.0.0', 5000)\n{\"kind\": \"LOGGER_UNAVAILABLE\", \"error\": \"timed out\", \"original\": {\"event_id\": \"4f90334b233f496289c772651b7bac1b\", \"time\": \"2026-10-26T04:58:40.870823+00:00\", \"monotonic_ns\": 5103231226362, \"component\": \"server\", \"kind\": \"DISCONNECT\", \"peer\": \"10.0.0.1:51830\", \"messages\": 200}}\n{\"kind\": \"LOGGER_UNAVAILABLE\", \"error\": \"timed out\", \"original\": {\"event_id\": \"cce4caa4158c4987a3d1b860d3ba58c6\", \"time\": \"2026-10-26T04:58:40.968993+00:00\", \"monotonic_ns\": 5103329395356, \"component\": \"server\", \"kind\": \"CONNECT\", \"peer\": \"10.0.0.1:57674\"}}\n"
+      ]
+    ],
+    "samples": 30,
+    "medians": {
+      "connect_ms": 6.0908685,
+      "first_echo_ms": 28.203895000388002,
+      "steady_median_ms": 0.03233150027881493,
+      "application_mbps": 97.12831397598254
+    }
+  },
+  {
+    "tag": "20261026-102714-2-firewall",
+    "local": 228,
+    "central_controller": 228,
+    "missing": [],
+    "warnings": [],
+    "rlock": true,
+    "traceback": false,
+    "openflow_errors": 0,
+    "validation": {
+      "controller_events": 228,
+      "missing_event_ids": [],
+      "pending_disconnects": {},
+      "central_records": 290,
+      "quiet_seconds": 1,
+      "status": "passed"
+    },
+    "service_warnings": [],
+    "samples": 30,
+    "medians": {
+      "connect_ms": 6.7771785,
+      "first_echo_ms": 28.723923499910597,
+      "steady_median_ms": 0.04843299984713667,
+      "application_mbps": 105.77098509156608
+    }
+  },
+  {
+    "tag": "20261026-102714-3-baseline",
+    "local": 224,
+    "central_controller": 224,
+    "missing": [],
+    "warnings": [],
+    "rlock": true,
+    "traceback": false,
+    "openflow_errors": 0,
+    "validation": {
+      "controller_events": 224,
+      "missing_event_ids": [],
+      "pending_disconnects": {},
+      "central_records": 288,
+      "quiet_seconds": 1,
+      "status": "passed"
+    },
+    "service_warnings": [],
+    "samples": 30,
+    "medians": {
+      "connect_ms": 6.5489555,
+      "first_echo_ms": 27.64220800008843,
+      "steady_median_ms": 0.03677600034279749,
+      "application_mbps": 119.45804921571275
+    }
+  },
+  {
+    "tag": "20261026-102714-3-firewall",
+    "local": 233,
+    "central_controller": 233,
+    "missing": [],
+    "warnings": [
+      {
+        "kind": "LOGGER_UNAVAILABLE",
+        "error": "timed out",
+        "original": {
+          "event_id": "3f143b4387964526813addbca5e5ed3a",
+          "time": "2026-10-26T04:59:08.916487+00:00",
+          "monotonic_ns": 5131276887672,
+          "component": "controller",
+          "kind": "ALLOW",
+          "mode": "firewall",
+          "src": "10.0.0.1",
+          "dst": "10.0.0.3",
+          "sport": 41398,
+          "dport": 5000,
+          "count": 0
+        }
+      },
+      {
+        "kind": "LOGGER_UNAVAILABLE",
+        "error": "timed out",
+        "original": {
+          "event_id": "e2ee98c0db4f4245bf2b84ea05bfda79",
+          "time": "2026-10-26T04:59:10.709211+00:00",
+          "monotonic_ns": 5133069618569,
+          "component": "controller",
+          "kind": "ALLOW",
+          "mode": "firewall",
+          "src": "10.0.0.1",
+          "dst": "10.0.0.3",
+          "sport": 41440,
+          "dport": 5000,
+          "count": 0
+        }
+      },
+      {
+        "kind": "LOGGER_UNAVAILABLE",
+        "error": "timed out",
+        "original": {
+          "event_id": "08462dddda7344c985a910e3ca8264f2",
+          "time": "2026-10-26T04:59:11.831279+00:00",
+          "monotonic_ns": 5134191676630,
+          "component": "controller",
+          "kind": "ALLOW",
+          "mode": "firewall",
+          "src": "10.0.0.3",
+          "dst": "10.0.0.4",
+          "sport": 45810,
+          "dport": 7000,
+          "count": 0
+        }
+      },
+      {
+        "kind": "LOGGER_UNAVAILABLE",
+        "error": "timed out",
+        "original": {
+          "event_id": "c9022c594b2440ffbe1efce91d91b18b",
+          "time": "2026-10-26T04:59:11.831912+00:00",
+          "monotonic_ns": 5134192306020,
+          "component": "controller",
+          "kind": "ALLOW",
+          "mode": "firewall",
+          "src": "10.0.0.3",
+          "dst": "10.0.0.4",
+          "sport": 45810,
+          "dport": 7000,
+          "count": 0
+        }
+      },
+      {
+        "kind": "LOGGER_UNAVAILABLE",
+        "error": "timed out",
+        "original": {
+          "event_id": "6564c6b91e4a4980ab56fc40b8d8302a",
+          "time": "2026-10-26T04:59:13.698800+00:00",
+          "monotonic_ns": 5136059200016,
+          "component": "controller",
+          "kind": "ALLOW",
+          "mode": "firewall",
+          "src": "10.0.0.1",
+          "dst": "10.0.0.3",
+          "sport": 48236,
+          "dport": 5000,
+          "count": 0
+        }
+      }
+    ],
+    "rlock": true,
+    "traceback": false,
+    "openflow_errors": 0,
+    "validation": {
+      "controller_events": 233,
+      "missing_event_ids": [],
+      "pending_disconnects": {},
+      "central_records": 295,
+      "quiet_seconds": 1,
+      "status": "passed"
+    },
+    "service_warnings": [
+      [
+        "server",
+        "TCP echo server listening on ('0.0.0.0', 5000)\n{\"kind\": \"LOGGER_UNAVAILABLE\", \"error\": \"timed out\", \"original\": {\"event_id\": \"2b008ea79cfc474db5b3b292f260e8bf\", \"time\": \"2026-10-26T04:59:08.924458+00:00\", \"monotonic_ns\": 5131284889408, \"component\": \"server\", \"kind\": \"CONNECT\", \"peer\": \"10.0.0.1:41398\"}}\n{\"kind\": \"LOGGER_UNAVAILABLE\", \"error\": \"timed out\", \"original\": {\"event_id\": \"e37c3844f46b49da913c397c2b5dfc3c\", \"time\": \"2026-10-26T04:59:11.924686+00:00\", \"monotonic_ns\": 5134285081765, \"component\": \"server\", \"kind\": \"CONNECT\", \"peer\": \"10.0.0.1:48154\"}}\n{\"kind\": \"LOGGER_UNAVAILABLE\", \"error\": \"timed out\", \"original\": {\"event_id\": \"7bf0ae8026bf41d69f7abfc1ed70ec98\", \"time\": \"2026-10-26T04:59:13.850645+00:00\", \"monotonic_ns\": 5136211046994, \"component\": \"server\", \"kind\": \"DISCONNECT\", \"peer\": \"10.0.0.1:48236\", \"messages\": 200}}\n{\"kind\": \"LOGGER_UNAVAILABLE\", \"error\": \"timed out\", \"original\": {\"event_id\": \"d04e131dd7fc43b2a3b482a5c7186074\", \"time\": \"2026-10-26T04:59:13.934104+00:00\", \"monotonic_ns\": 5136294500924, \"component\": \"server\", \"kind\": \"CONNECT\", \"peer\": \"10.0.0.1:48250\"}}\n"
+      ]
+    ],
+    "samples": 30,
+    "medians": {
+      "connect_ms": 5.942412,
+      "first_echo_ms": 31.596439000168175,
+      "steady_median_ms": 0.023663000320084393,
+      "application_mbps": 84.9925648806603
+    }
+  },
+  {
+    "tag": "20261026-102714-demo",
+    "local": 50,
+    "central_controller": 50,
+    "missing": [],
+    "warnings": [],
+    "rlock": true,
+    "traceback": false,
+    "openflow_errors": 0,
+    "validation": {
+      "controller_events": 50,
+      "missing_event_ids": [],
+      "pending_disconnects": {},
+      "central_records": 64,
+      "quiet_seconds": 1,
+      "status": "passed"
+    },
+    "service_warnings": [],
+    "blocking": [
+      {
+        "barrier_ms": 5.457991,
+        "component": "controller",
+        "decision_ns": 5027243642751,
+        "event_id": "adf282a58de0495e895fecab0f33500a",
+        "kind": "BLOCK_CONFIRMED",
+        "logger_peer": "192.168.100.1",
+        "mode": "firewall",
+        "monotonic_ns": 5027249136203,
+        "src": "10.0.0.2",
+        "time": "2026-10-26T04:57:24.888740+00:00"
+      },
+      {
+        "component": "controller",
+        "cookie": 101,
+        "dropped_packets": 16,
+        "elapsed_ms": 10314.193398,
+        "event_id": "3e4f06d6e35243809fcd4020a7bea155",
+        "kind": "RECOVER",
+        "logger_peer": "192.168.100.1",
+        "mode": "firewall",
+        "monotonic_ns": 5037557872889,
+        "reason": 1,
+        "src": "10.0.0.2",
+        "switch_duration_s": 10.312,
+        "time": "2026-10-26T04:57:35.197476+00:00"
+      }
+    ],
+    "checks": [
+      [
+        "client 1 allowed",
+        true
+      ],
+      [
+        "client 2 allowed",
+        true
+      ],
+      [
+        "unauthorized attempt 1",
+        false
+      ],
+      [
+        "unauthorized attempt 2",
+        false
+      ],
+      [
+        "unauthorized attempt 3",
+        false
+      ],
+      [
+        "blocked client cannot use allowed port",
+        false
+      ],
+      [
+        "other client unaffected",
+        true
+      ],
+      [
+        "forbidden port remains denied after recovery",
+        false
+      ]
+    ]
+  }
+]

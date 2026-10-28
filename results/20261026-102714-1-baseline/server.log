@@ -1,0 +1,2 @@
+TCP echo server listening on ('0.0.0.0', 5000)
+{"kind": "LOGGER_UNAVAILABLE", "error": "timed out", "original": {"event_id": "764832363b4743f2abf84bf1d42d91be", "time": "2026-10-26T04:57:50.638106+00:00", "monotonic_ns": 5052998503400, "component": "server", "kind": "CONNECT", "peer": "10.0.0.1:60174"}}

@@ -1,0 +1,16 @@
+/home/sharvil/Downloads/CN-PROJECT-UBUNTU-MININET/controller_launcher.py:1: DeprecationWarning: 
+Eventlet is deprecated. It is currently being maintained in bugfix mode, and
+we strongly recommend against using it for new projects.
+
+If you are already using Eventlet, we recommend migrating to a different
+framework.  For more detail see
+https://eventlet.readthedocs.io/en/latest/asyncio/migration.html
+
+  import eventlet
+1 RLock(s) were not greened, to fix this error make sure you run eventlet.monkey_patch() before importing any other modules.
+Controller starting; threading mode: eventlet
+INFO:os_ken.base.app_manager:loading app controller
+INFO:os_ken.base.app_manager:loading app os_ken.controller.ofp_handler
+INFO:os_ken.base.app_manager:instantiating app controller of Firewall
+INFO:os_ken.base.app_manager:instantiating app os_ken.controller.ofp_handler of OFPHandler
+{"kind": "LOGGER_UNAVAILABLE", "error": "timed out", "original": {"event_id": "a926201172644af7b94741a8013691b9", "time": "2026-10-26T04:57:50.396536+00:00", "monotonic_ns": 5052756932730, "component": "controller", "kind": "ALLOW", "mode": "baseline", "src": "10.0.0.3", "dst": "10.0.0.4", "sport": 49852, "dport": 7000, "count": 0}}

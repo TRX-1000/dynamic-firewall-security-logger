@@ -1,0 +1,5 @@
+TCP echo server listening on ('0.0.0.0', 5000)
+{"kind": "LOGGER_UNAVAILABLE", "error": "timed out", "original": {"event_id": "2b008ea79cfc474db5b3b292f260e8bf", "time": "2026-10-26T04:59:08.924458+00:00", "monotonic_ns": 5131284889408, "component": "server", "kind": "CONNECT", "peer": "10.0.0.1:41398"}}
+{"kind": "LOGGER_UNAVAILABLE", "error": "timed out", "original": {"event_id": "e37c3844f46b49da913c397c2b5dfc3c", "time": "2026-10-26T04:59:11.924686+00:00", "monotonic_ns": 5134285081765, "component": "server", "kind": "CONNECT", "peer": "10.0.0.1:48154"}}
+{"kind": "LOGGER_UNAVAILABLE", "error": "timed out", "original": {"event_id": "7bf0ae8026bf41d69f7abfc1ed70ec98", "time": "2026-10-26T04:59:13.850645+00:00", "monotonic_ns": 5136211046994, "component": "server", "kind": "DISCONNECT", "peer": "10.0.0.1:48236", "messages": 200}}
+{"kind": "LOGGER_UNAVAILABLE", "error": "timed out", "original": {"event_id": "d04e131dd7fc43b2a3b482a5c7186074", "time": "2026-10-26T04:59:13.934104+00:00", "monotonic_ns": 5136294500924, "component": "server", "kind": "CONNECT", "peer": "10.0.0.1:48250"}}
