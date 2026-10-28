@@ -3,9 +3,12 @@
 
 Computer Networks project | Submission date: 26 October 2026
 
-Team members / student IDs: ______________________________
-Course / instructor: ______________________________
-Repository URL / commit (if required): ______________________________
+Team members / student IDs: 
+Sharvil Deshpande / PES1UG25CS477, 
+Shashank N / PES1UG25CS481, 
+Santwana Reddy / PES1UG25CS471
+
+Repository URL: https://github.com/TRX-1000/dynamic-firewall-security-logger.git
 
 ## 1. Objective
 
